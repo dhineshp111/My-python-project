@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-crypto = pd.read_csv("https://github.com/dhineshp111/My-python-project/blob/main/crypto-23.csv")
+crypto = pd.read_csv("crypto-23.csv")
 fig, ax=plt.subplots()
 ax.plot(crypto['Month'], crypto['BTC'])
 ax.plot(crypto['Month'], crypto['ETH'])
