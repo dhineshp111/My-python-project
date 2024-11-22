@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-crypto = pd.read_csv("C:/Users/Dinakar MMD/Downloads/crypto-23.csv")
+crypto = pd.read_csv("https://github.com/dhineshp111/My-python-project/blob/main/crypto-23.csv")
 
 fig, ax=plt.subplots()
 
