@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
 
-crypto = pd.read_csv("C:/Users/Dinakar MMD/Downloads/crypto-23.csv")
+crypto = pd.read_csv("crypto-23.csv")
 
 fig, ax=plt.subplots()
 
